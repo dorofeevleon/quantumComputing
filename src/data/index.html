@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Deckenlampe</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="lightSwitch.js"></script>
+  </head>
+  <body>
+    <!-- <body onload="requestSetting()"> -->
+    <h2 align="center">Deckenlampe Finn</h2>
+
+    <main>
+      <article>
+        <div>
+          <!-- 
+<p id='LED_status'>LED is off</p>
+      <button id='BTN_LED'class="button">Turn on the LED</button>
+        --></div>
+        <!--<p>Recieved data = <span id="rd">---</span></p>-->
+        <br />
+        <div class="ta5">
+          <div class="Block_1">
+            <label class="switch">
+              <input type="checkbox" oninput="turnLight(1)" id="Switch1" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="Block_2">
+            <p>Set 4er Strahler</p>
+          </div>
+          <br /><br />
+        </div>
+
+        <div class="ta5">
+          <div class="Block_1">
+            <label class="switch">
+              <input type="checkbox" oninput="turnLight(2)" id="Switch2" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="Block_2">
+            <p>Set 3er Strahler</p>
+          </div>
+          <br /><br />
+        </div>
+        <div class="ta5">
+          <div class="Block_1">
+            <label class="switch">
+              <input type="checkbox" oninput="turnLight(3)" id="Switch3" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="Block_2">
+            <p>Farbe</p>
+          </div>
+          <br /><br />
+        </div>
+        <div class="ta5">
+          <div class="Block_1">
+            <label class="switch">
+              <input type="checkbox" oninput="turnLight(4)" id="Switch4" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="Block_2">
+            <p>Effekte</p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <article></article>
+    <navbar>
+      <div class="navbar">
+        <a href="./index.html" class="active">Lampen</a>
+        <a href="./WS2812B.html">Farbstrip</a>
+
+        <a href="./RGB.html">RGB</a>
+<a href="./info.html">Info</a>
+        <p style="font-size: 10px;text-align: right;"><span  id="rd">---</span></p>
+      </div>
+    </navbar>
+  </body>
+</html>
